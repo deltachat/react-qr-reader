@@ -1,6 +1,6 @@
 {
-  "name": "react-qr-reader",
-  "version": "2.1.1",
+  "name": "@deltachat/react-qr-reader",
+  "version": "4.0.0",
   "description": "A react component for reading QR codes from the webcam.",
   "main": "./lib/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JodusNodus/react-qr-reader.git"
+    "url": "git+https://github.com/deltachat/react-qr-reader.git"
   },
   "keywords": [
     "react",
@@ -23,9 +23,9 @@
   "author": "thomas billiet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JodusNodus/react-qr-reader/issues"
+    "url": "https://github.com/deltachat/react-qr-reader/issues"
   },
-  "homepage": "https://github.com/JodusNodus/react-qr-reader#readme",
+  "homepage": "https://github.com/deltachat/react-qr-reader#readme",
   "devDependencies": {
     "babel-cli": "^6.8.0",
     "babel-core": "^6.26.3",
@@ -48,8 +48,8 @@
     "babel-runtime": "^6.26.0"
   },
   "peerDependencies": {
-    "react": "~16",
-    "react-dom": "~16"
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "jsqr": "^1.1.1",
